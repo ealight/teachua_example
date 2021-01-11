@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 public class ClubController {
     @GetMapping("/club/{id}")
     public String getClub(@PathVariable Long id) {
-        return "club " + id;
+        return "club id" + id;
     }
 
     @PostMapping("/club")
